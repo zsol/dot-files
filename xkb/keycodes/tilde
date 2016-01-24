@@ -1,0 +1,6 @@
+partial alphanumeric_keys
+xkb_keycodes "evdev+aliases(qwerty)+tilde" {
+  include "evdev+aliases(qwerty)"
+  <LSGT> = 49;
+  <TLDE> = 94;
+};

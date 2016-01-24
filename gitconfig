@@ -1,0 +1,33 @@
+[hub]
+	protocol = git
+
+[user]
+        email = zsol.zsol@gmail.com
+        name = Zsolt Dollenstein
+[alias]
+        co = checkout
+        promote = !$ZSH/bin/git-promote
+        wtf     = !$ZSH/bin/git-wtf
+        count   = !git shortlog -sn
+        wdiff = diff --color-words
+        st = status -sb
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        excludesfile = ~/.gitignore
+[apply]
+        whitespace = nowarn
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[help]
+        autocorrect = 1
+[push]
+	default = upstream
+[pull]
+	rebase = true
